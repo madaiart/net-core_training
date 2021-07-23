@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  mongod:
+    container_name: mongo1100
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: test
+      MONGO_INITDB_ROOT_PASSWORD: test
+    deploy:
+      replicas: 1
+    volumes:
+      - G:\Databasefiles\mongo-database\port1100:/root/data
+      - G:\Databasefiles\mongo-database\port1100:/root/logs
+      - ./mongod.conf:/etc/mongod.conf    
+    ports:
+      - 1100:27017
