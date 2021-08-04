@@ -52,7 +52,7 @@ namespace Catalog.Controllers
                 Price = itemDto.Price,
                 CreteDate = DateTimeOffset.UtcNow
             };
-    await  _repository.CreateItemAsync(item);
+            await _repository.CreateItemAsync(item);
 
             return CreatedAtAction(nameof(GetItemAsync), new { id = item.Id }, item.AsDto());
         }
