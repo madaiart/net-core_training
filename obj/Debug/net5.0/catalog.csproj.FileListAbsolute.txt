@@ -27,3 +27,15 @@ G:\SoftwareProjects\NetCore\catalog\obj\Debug\net5.0\catalog.dll
 G:\SoftwareProjects\NetCore\catalog\obj\Debug\net5.0\ref\catalog.dll
 G:\SoftwareProjects\NetCore\catalog\obj\Debug\net5.0\catalog.pdb
 G:\SoftwareProjects\NetCore\catalog\obj\Debug\net5.0\catalog.genruntimeconfig.cache
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\DnsClient.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\SharpCompress.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
