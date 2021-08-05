@@ -13,6 +13,22 @@ services:
     volumes:
       - G:\Databasefiles\mongo-database\port1100:/root/data
       - G:\Databasefiles\mongo-database\port1100:/root/logs
-      - ./mongod.conf:/etc/mongod.conf    
+      - ./mongod.conf:/etc/mongod.conf          
     ports:
       - 1100:27017
+#  docker run -d --rm --name mongo -p 1100:27017 -v mongodbdata:/data/db -e MONGO_INITDB_ROOT_USERNAME=test -e MONGO_INITDB_ROOT_PASSWORD=test --network=net5composer mongo
+  server:
+    container_name: net5Catalog
+    image: catalog:v1
+    ports:
+      - 1101:1101
+    restart: always
+    depends_on: 
+      - mongod
+    deploy:
+      replicas: 1 
+    environment: 
+      - MongoDbSettings:Username=test
+      - MongoDbSettings:Password=test
+# docker run -it --rm -p 1101:1101 -e MongoDBSettings:Host=mongod -e MongoDbSettings:Password=test -e MongoDbSettings:Username=test --network=net5composer catalog:v1
+# 1101 is the default port that dotnet overrides in docker images defined in Dockerfile

@@ -39,3 +39,6 @@ G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\win\native\snappy6
 G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+G:\SoftwareProjects\NetCore\catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
